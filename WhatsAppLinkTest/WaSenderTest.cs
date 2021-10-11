@@ -18,7 +18,5 @@ namespace WhatsAppLinkTest
             var link = WaSender.GetLink("123","ola");
             Assert.Equal("https://wa.me/123?text=ola",link);
         }
-
-
     }
 }
