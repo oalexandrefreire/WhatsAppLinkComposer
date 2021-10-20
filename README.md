@@ -1,4 +1,6 @@
-## WhatsAppLink
+# WhatsAppLink
+[NuGet package](https://www.nuget.org/packages/WhatsAppLink/)
+
 make custom link to Whatsapp
 
 ### Example
