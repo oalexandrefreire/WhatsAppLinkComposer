@@ -3,28 +3,35 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Alexandre Freire</Authors>
-    <Company>OALE</Company>
-    <PackageTags>WhatsAppLink, Link Builder, WhatsApp Link Builder</PackageTags>
-    <Description>make whatsapp link in C#</Description>
+    <Company>Alexandre Freire</Company>
+    <PackageTags>WhatsApp, .NET, C#, NuGet, Link, Composer, Messaging, Chat, API</PackageTags>
+    <Description>Compose a message in your code and generate a link that, when clicked, will open a chat with a specific phone number and pre-populate the message.</Description>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <ApplicationIcon>walink.ico</ApplicationIcon>
     <PackageIcon>walink.png</PackageIcon>
     <PackageIconUrl />
-    <RepositoryUrl>https://github.com/oalexandrefreire/WhatsAppLinkCSharp</RepositoryUrl>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/oalexandrefreire/WhatsAppLinkGenerator</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageVersion>1.1.0</PackageVersion>
-    <Title>WhatsAppLink</Title>
+    <Title>WhatsApp Link Generator</Title>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/oalexandrefreire/WhatsAppLinkGenerator</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="walink.png">
+    <None Include="..\license.txt">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
+      <PackagePath>\</PackagePath>
     </None>
-    <None Include="license.txt">
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="walink.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
