@@ -1,3 +1,6 @@
+![Nuget](https://img.shields.io/nuget/dt/WhatsAppLink)
+![Nuget](https://img.shields.io/nuget/v/WhatsAppLink)
+
 # WhatsApp Link Composer
 
 This NuGet package provides a simple and convenient way to create custom links to WhatsApp. With this package, you can easily compose a message in your code and generate a link that, when clicked, will open a chat with a specific phone number and pre-populate the message you composed.
